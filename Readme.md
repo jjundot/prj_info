@@ -6,7 +6,7 @@
 
 - Set the compiler or ide to execute bulid_pre.sh before build, redirect the output to the header file:
 
-​     	`./build_pre.sh > prj_version.h`
+  `./build_pre.sh > prj_version.h`
 
 - Include this header file in the project C file:
 
@@ -14,7 +14,7 @@
 
 - Use git info macro definition information in the project:
 
-​       `printf("SHA: %s, Build_Time: %s", GIT_INFO, BUILD_TIME);`
+   `printf("SHA: %s, Build_Time: %s", GIT_INFO, BUILD_TIME);`
 
 
 
